@@ -1,0 +1,30 @@
+@media (max-width: 38rem) {
+  html {
+    font-size: 100%;
+  }
+
+  body {
+    background-color: white;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    /* background-color: red; */
+    border-radius: 0;
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    border-radius: 0;
+  }
+
+  table {
+    width: 200px;
+  }
+
+  .mobile {
+    /* background-color: green; */
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Young Serif", "sans-serif";
+  background-color: hsl(30, 54%, 90%);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 2rem 3rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.hero-image {
+  margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  /* font-weight: 400; */
+  margin-bottom: 1.5rem;
+}
+
+p {
+  /* font-size: rem; */
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+
+  margin-bottom: 1.3rem;
+  text-transform: capitalize;
+}
+
+.prep-section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.prep-section ul {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+h4 {
+  /* font-weight: 400; */
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1.5rem;
+}
+
+.ingredients {
+  border-bottom: 1px solid black;
+  margin-bottom: 1.5rem;
+}
+
+.ingredients-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.9rem;
+}
+
+.instructions {
+  border-bottom: 1px solid black;
+  margin-bottom: 1.5rem;
+}
+
+.instruction-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-left: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.instruction-lists li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+table {
+  /* background-color: red; */
+  width: 400px;
+  text-transform: capitalize;
+  /* padding: 2rem; */
+  text-align: left;
+  margin-left: 2rem;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  border-bottom: none;
+  overflow-x: hidden;
+}
+
+tr {
+  /* background-color: green; */
+  /* border-bottom: none; */
+  border-bottom: 1px solid black;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+th {
+  padding: 0.8rem 2rem;
+  font-weight: 100;
+
+  /* border-bottom: 1px solid black; */
+}
+
+td {
+  padding: 0.8rem 2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+td:nth-last-child() {
+  border-bottom: none;
+}
